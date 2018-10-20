@@ -2,21 +2,6 @@
 {
   "tokenColors": [
     {
-      "settings": {
-        "background": "#282c34",
-        "foreground": "#abb2bf",
-        "findHighlight": "#FFE792",
-        "findHighlightForeground": "#000000",
-        "selectionBorder": "#222218",
-        "activeGuide": "#9D550FB0",
-        "bracketsForeground": "#F8F8F2A5",
-        "bracketsOptions": "underline",
-        "bracketContentsForeground": "#F8F8F2A5",
-        "bracketContentsOptions": "underline",
-        "tagsOptions": "stippled_underline"
-      }
-    },
-    {
       "name": "Comment",
       "scope": [
         "comment",
@@ -334,18 +319,6 @@
       }
     },
     {
-      "scope": "constant.numeric.line-number.find-in-files - match",
-      "settings": {
-        "foreground": "#56b6c2A0"
-      }
-    },
-    {
-      "scope": "entity.name.filename.find-in-files",
-      "settings": {
-        "foreground": "#e5c07b"
-      }
-    },
-    {
       "name": "Markup: Emphasis",
       "scope": "markup.italic, markup.italic.markdown",
       "settings": {
@@ -432,8 +405,8 @@
   "colors": {
     "activityBar.background": "#2F333D",
     "activityBar.foreground": "#D7DAE0",
-    "activityBarBadge.background": "#528bff",
-    "activityBarBadge.foreground": "#F8FAFD",
+    "activityBarBadge.background": "#2AA198",
+    "activityBarBadge.foreground": "#ffffff",
 
     "dropdown.border": "#181A1F",
     "dropdown.background": "#1d1f23",
@@ -449,15 +422,15 @@
     "button.foreground": "#ffffff",
     
     "editor.background": "#282c34",
-    "editor.lineHighlightBackground": "#383E4A",
+    "editor.lineHighlightBackground": "#2aa19820",
     "editor.selectionBackground": "#3E4451",
 
-    "editor.findMatchBackground": "#3dd9ce",
-    "editor.findMatchHighlightBorder": "#3dd9ce",
-    "editor.findMatchHighlightBackground": "#282c34",
+    "editor.findMatchBackground": "#2aa198",
+    "editor.findMatchHighlightBorder": "#fff",
+    "editor.findMatchHighlightBackground": "#fff",
     "editor.findRangeHighlightBorder": "#282c34",
     "editor.findRangeHighlightBackground": "#3E4451",
-    "editor.findMatchBorder": "#3dd9ce",
+    "editor.findMatchBorder": "#2aa198",
 
 
     //
@@ -562,8 +535,8 @@
     "editorGutter.deletedBackground": "#FF5370",
     "editorGutter.addedBackground": "#C3E88D",
     "editorGutter.modifiedBackground": "#89DDFF",
+
     /* color when git compare */
-    // "diffEditor.border": "#83ff78",
     // "diffEditor.insertedTextBorder": "#83ff78",
     // "diffEditor.removedTextBorder": "#FF5370",
     "diffEditor.insertedTextBackground": "#2aa19870",
