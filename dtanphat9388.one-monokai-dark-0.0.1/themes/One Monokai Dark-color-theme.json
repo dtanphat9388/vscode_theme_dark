@@ -62,21 +62,16 @@
         // computed object key
         "meta.brace.square.js",               
         // Object key value separator
-        "punctuation.separator.key-value.js", 
+        "punctuation.separator.key-value", 
         // declare function name
         "meta.definition.function",           
         // arrow function sign (ex: =>)
-        "storage.type.function.arrow.js",     
+        "storage.type.function.arrow",     
         // User defined
         "meta.definition.variable",
         "variable.other.readwrite",
         // template string
         "meta.template.expression.js", 
-        // js template-expression
-        "punctuation.definition.template-expression.begin.js",
-        "punctuation.definition.template-expression.end.js",
-        "punctuation.definition.template-expression.begin.ts",
-        "punctuation.definition.template-expression.end.ts",
         // class name
         "entity.name.class",
         "entity.name.module",
@@ -171,7 +166,12 @@
         "entity.name.tag.class.jsx",
         "support.class.component.js",
         // number
-        "constant.numeric"
+        "constant.numeric",
+        // Template expression JS | TS
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js",
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts",
       ],
       "settings": {
         "foreground": "#e06c75"
