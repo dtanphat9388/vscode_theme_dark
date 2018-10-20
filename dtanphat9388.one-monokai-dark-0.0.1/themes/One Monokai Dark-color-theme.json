@@ -41,8 +41,7 @@
         "meta.object-literal.key.js" // object key
       ],
       "settings": {
-        "foreground": "#EAD87F"
-        // "foreground": "#97E59B"
+        "foreground": "#EBD996"
       }
     },
   
