@@ -563,8 +563,11 @@
     "editorGutter.addedBackground": "#C3E88D",
     "editorGutter.modifiedBackground": "#89DDFF",
     /* color when git compare */
-    "diffEditor.insertedTextBackground": "#c4e88d44",
-    "diffEditor.removedTextBackground": "#FF537044",
+    // "diffEditor.border": "#83ff78",
+    // "diffEditor.insertedTextBorder": "#83ff78",
+    // "diffEditor.removedTextBorder": "#FF5370",
+    "diffEditor.insertedTextBackground": "#2aa19870",
+    "diffEditor.removedTextBackground": "#9c283c70",
     
     
     "gitDecoration.addedResourceForeground": "#C3E88D",
