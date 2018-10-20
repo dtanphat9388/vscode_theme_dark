@@ -202,7 +202,9 @@
         "function.less",
         "function.sass",
         // JSON String
-        "structure.dictionary.property-name.json"
+        "structure.dictionary.property-name.json",
+        // module.exports
+        "support.type.object.module"
       ],
       "settings": {
         "foreground": "#2aa198"
