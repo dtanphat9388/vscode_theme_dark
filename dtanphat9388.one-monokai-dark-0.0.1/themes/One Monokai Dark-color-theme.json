@@ -41,14 +41,16 @@
         "meta.object-literal.key.js" // object key
       ],
       "settings": {
-        "foreground": "#e5c07b"
+        "foreground": "#EAD87F"
+        // "foreground": "#97E59B"
       }
     },
   
     {
       "name": "#c678dd",
       "scope": [
-        "constant.numeric", // number
+        // number
+        "constant.numeric", 
       ],
       "settings": {
         "foreground": "#c678dd"
@@ -79,7 +81,6 @@
         // class name
         "entity.name.class",
         "entity.name.module",
-        "entity.name.type",
         "storage.identifier",
         // inherited class
         "entity.other.inherited-class",
@@ -96,7 +97,7 @@
     },
 
     {
-      "name": "#9CDCFE",
+      "name": "#62BAE4",
       "scope": [
         // function call (ex: ())
         "meta.brace.round",             
@@ -110,10 +111,11 @@
         "variable.readwrite",
         "variable.readwrite.other.block",
         // class super function
-        "variable.language.super"      
+        "variable.language.super",
+        "new.expr"      
       ],
       "settings": {
-        "foreground": "#9CDCFE"
+        "foreground": "#62BAE4"
       }
     },
     {
@@ -169,6 +171,8 @@
         "entity.name.tag.class.js",
         "entity.name.tag.class.jsx",
         "support.class.component.js",
+        // number
+        "constant.numeric"
       ],
       "settings": {
         "foreground": "#e06c75"
