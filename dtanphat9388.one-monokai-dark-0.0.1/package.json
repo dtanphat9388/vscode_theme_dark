@@ -2,7 +2,7 @@
 	"name": "one-monokai-dark",
 	"displayName": "One Monokai Dark",
 	"description": "custom one monokai",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"publisher": "dtanphat9388",
 	"engines": {
 		"vscode": "^1.28.0"
