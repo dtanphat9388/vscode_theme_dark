@@ -1,0 +1,27 @@
+{
+	"name": "one-monokai-dark",
+	"displayName": "One Monokai Dark",
+	"description": "custom one monokai",
+	"version": "0.0.2",
+	"publisher": "dtanphat9388",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "One Monokai Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/One Monokai Dark-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "d895284b-6876-4b4d-aca1-e9778079f840",
+		"publisherId": "8428022c-bb4f-4226-9cbd-8ed7791332e3",
+		"publisherDisplayName": "dtanphat9388"
+	}
+}
