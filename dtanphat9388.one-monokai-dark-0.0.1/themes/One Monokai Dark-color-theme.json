@@ -1,17 +1,18 @@
 
 {
   //
-  // MARK  comment
+  // MARK  BASE_COLOR
   //
 
   "tokenColors": [
     {
-      "name": "#bbbbbbff",
+      "name": "#bbbbbb",
       "scope": [
         "source",
+        "text.html.markdown",
       ],
       "settings": {
-        "foreground": "#bbbbbbff"
+        "foreground": "#bbbbbb"
       }
     },
 
@@ -144,83 +145,77 @@
     },
 
 
-    // MARK 
-
+    // MARK  markdown
+    
     {
-      "name": "Library variable",
-      "scope": "support.other.variable",
-      "settings": {
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "Invalid",
-      "scope": "invalid",
-      "settings": {
-        "foreground": "#F8F8F0"
-      }
-    },
-    {
-      "name": "Invalid deprecated",
-      "scope": "invalid.deprecated",
-      "settings": {
-        "foreground": "#F8F8F0"
-      }
-    },
-
-    {
-      "name": "Link",
-      "scope": "string.detected-link",
-      "settings": {
-        "foreground": "#61afef"
-      }
-    },
-    {
-      "name": "diff.header",
+      "name": "#56b6c2",
       "scope": [
-        "meta.diff",
-        "meta.diff.header"
+       /* base color */
+        "meta.embedded.block.shellscript"
       ],
       "settings": {
-        "foreground": "#75715E"
+        "foreground": "#bbbbbb"
       }
     },
+    
     {
-      "name": "diff.deleted",
-      "scope": "markup.deleted",
+      "name": "#56b6c2",
+      "scope": [
+        "markup.bold.markdown"
+      ],
       "settings": {
-        "foreground": "#c678dd"
+        "fontStyle": "bold",
+        "foreground": "#ffffff"
       }
     },
+    
     {
-      "name": "diff.inserted",
-      "scope": "markup.inserted",
+      "name": "#56b6c2",
+      "scope": [
+        "markup.italic.markdown"
+      ],
       "settings": {
-        "foreground": "#e5c07b"
+        "fontStyle": "italic",
+        "foreground": "#ffffff"
       }
     },
+
     {
-      "name": "diff.changed",
-      "scope": "markup.changed",
+      "name": "#56b6c2",
+      "scope": [
+       /* link */
+        "markup.underline.link",
+        "markup.quote.markdown"
+      ],
       "settings": {
-        "foreground": "#e5c07b"
+        "foreground": "#62BAE4"
       }
     },
+
     {
-      "name": "Markup: Emphasis",
-      "scope": "markup.italic, markup.italic.markdown",
+      "name": "#56b6c2",
+      "scope": [
+       /* heading */
+        "markup.heading.markdown",
+        "meta.separator.markdown"
+      ],
       "settings": {
-        "fontStyle": "italic"
+        "foreground": "#2aa198"
       }
     },
+
     {
-      "name": "Markup: Emphasis Punctuation",
-      "scope": "punctuation.definition.italic.markdown",
+      "name": "#56b6c2",
+      "scope": [
+       /* block code */
+        "markup.fenced_code.block.markdown"
+      ],
       "settings": {
-        "fontStyle": "none",
-        "foreground": "#696969"
+        "foreground": "#e06c75"
       }
     },
+
+    
   ],
   
 /* ---------------------------------  MARK  VSCODE COLOR ------------------------------------------------------------------ */
