@@ -53,15 +53,15 @@
     {
       "name": "#62BAE4",
       "scope": [
-        // function call (ex: ())
+        /* function call (ex: ()) */
         "meta.brace.round",             
-        // if, else, ...
+       /*  if, else, ... */
         "keyword.control.conditional",  
-        // for, while, ...
+        /* for, while, ... */
         "keyword.control.flow",         
-        // function call
+        /* function call */
         "meta.function-call",     
-        // Variable
+        /* Variable */
         "variable.readwrite",
         "variable.readwrite.other.block",
         // class super function
