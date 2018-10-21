@@ -4,6 +4,7 @@
 	"description": "custom one monokai",
 	"version": "0.0.10",
 	"publisher": "dtanphat9388",
+	"repository": "https://github.com/dtanphat9388/vscode_theme_dark.git",
 	"engines": {
 		"vscode": "^1.28.0"
 	},
