@@ -39,10 +39,10 @@
       "name": "#e5c07b",
       "scope": [
         "string",
-        "string.template.js",
         "meta.object-literal.key.js", // object key
         // CSS selector
         "meta.selector.css",
+        "constant.other.character-class.range.regexp",
       ],
       "settings": {
         "foreground": "#EBD996"
@@ -99,6 +99,8 @@
         // number
         "constant.numeric",
         // Template expression JS | TS
+        "punctuation.definition.character-class.regexp",
+        "punctuation.definition.group.regexp",
         "punctuation.definition.template-expression.begin.js",
         "punctuation.definition.template-expression.end.js",
         "punctuation.definition.template-expression.begin.ts",
@@ -144,6 +146,18 @@
       }
     },
 
+
+    // MARK  JS
+    
+    {
+      "name": "#56b6c2",
+      "scope": [
+        "meta.template.expression"
+      ],
+      "settings": {
+        "foreground": "#bbbbbb"
+      }
+    },
 
     // MARK  markdown
     
