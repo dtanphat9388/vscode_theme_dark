@@ -44,6 +44,7 @@
     {
       "name": "#bbbbbbff",
       "scope": [
+        "source",
         // computed object key
         "meta.brace.square.js",               
         // Object key value separator
@@ -58,6 +59,7 @@
         // template string
         "meta.template.expression.js", 
         // class name
+        "entity.name.type.class",
         "entity.name.class",
         "entity.name.module",
         "storage.identifier",
@@ -68,7 +70,8 @@
         // lib class/type
         "support.type",
         // Json Property
-        "support.dictionary.json"
+        "support.dictionary.json",
+        
       ],
       "settings": {
         "foreground": "#bbbbbbff"

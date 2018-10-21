@@ -2,7 +2,7 @@
 	"name": "one-monokai-dark",
 	"displayName": "One Monokai Dark",
 	"description": "custom one monokai",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"publisher": "dtanphat9388",
 	"engines": {
 		"vscode": "^1.28.0"
@@ -13,7 +13,7 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "One Monokai Dark",
+				"label": "One Monokai Dark - Dtanphat9388",
 				"uiTheme": "vs-dark",
 				"path": "./themes/One Monokai Dark-color-theme.json"
 			}
