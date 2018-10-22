@@ -79,13 +79,6 @@
         "support.class.component.js",
         // number
         "constant.numeric",
-        // Template expression JS | TS
-        "punctuation.definition.character-class.regexp",
-        "punctuation.definition.group.regexp",
-        "punctuation.definition.template-expression.begin.js",
-        "punctuation.definition.template-expression.end.js",
-        "punctuation.definition.template-expression.begin.ts",
-        "punctuation.definition.template-expression.end.ts",
       ],
       "settings": {
         "foreground": "#e06c75"
@@ -130,7 +123,14 @@
         "variable.readwrite.other.block",
         // class super function
         "variable.language.super",
-        "new.expr"      
+        "new.expr",
+        // Template expression JS | TS
+        "punctuation.definition.character-class.regexp",
+        "punctuation.definition.group.regexp",
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js",
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts",
       ],
       "settings": {
         "foreground": "#62BAE4"
@@ -178,6 +178,18 @@
       "scope": [
         "support.type.property-name.json",
         "support.type.property-name.json.comments",
+      ],
+      "settings": {
+        "foreground": "#bbbbbb"
+      }
+    },
+
+    // NOTE  REGEX
+    {
+      "name": "#56b6c2",
+      "scope": [
+        "constant.other.character-class.regexp",
+        "keyword.control.anchor.regexp",
       ],
       "settings": {
         "foreground": "#bbbbbb"
