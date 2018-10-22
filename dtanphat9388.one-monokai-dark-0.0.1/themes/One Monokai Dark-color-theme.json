@@ -314,7 +314,6 @@
     "sideBarSectionHeader.background": "#282c34",
     "sideBar.dropBackground": "#ffffff",
 
-    "editorError.foreground": "#c24038",
     "editorRuler.foreground": "#484848",
     "editorCursor.foreground":"#3dd9ce",
 
