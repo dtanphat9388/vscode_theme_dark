@@ -428,6 +428,8 @@
     //
 
     "errorForeground": "#FF5370",
+    "editorWarning.foreground": "#EBD996",
+    "editorUnnecessaryCode.opacity": "#000000aa",
 
     "editorIndentGuide.background": "#3B4048",
 
