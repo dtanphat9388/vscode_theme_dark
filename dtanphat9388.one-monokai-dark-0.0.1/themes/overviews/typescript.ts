@@ -1,0 +1,16 @@
+var str:string = "fdsaf";
+let embedStr:string = ` this is ${str}`;
+
+let num:number = 10;
+let isOn:boolean = false;
+
+let arrNum: number[] = [1,2,3];
+const arrNum2: Array<number> = [5,6,4];
+let tuple:[string, number];
+tuple = ['tanphat', 40];
+tuple[2] = 5;
+tuple[3] = 'fdsaf'
+tuple[4] = true // error
+
+enum Color {green, red, yellow};
+let eye = Color.yellow;

@@ -8,9 +8,9 @@ let embedStr = `hello ${string}`
 let number = 7;
 const MY_CONSTANT = Symbol(1219147155);
 let bool = true
-
+func
 let array = ["fdsaf",777, { fdsaf:'fdsafdas' }];
-let [ a, ...b ] = [1,2];
+let [ a, ...b ] = [1,2];let
 
 const object = {
     name: 'tanphat',
