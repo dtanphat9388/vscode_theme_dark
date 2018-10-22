@@ -426,9 +426,14 @@
     //
     // TODO  SYNTAX
     //
-
     "errorForeground": "#FF5370",
+    "editorError.foreground": "#FF5370",
     "editorWarning.foreground": "#EBD996",
+
+    "editorMarkerNavigationError.background": "#FF5370",
+		"editorMarkerNavigationInfo.background": "#62BAE4",
+    "editorMarkerNavigationWarning.background": "#EBD996",
+    
     "editorUnnecessaryCode.opacity": "#000000aa",
 
     "editorIndentGuide.background": "#3B4048",
