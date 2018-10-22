@@ -329,9 +329,9 @@
     "editorRuler.foreground": "#484848",
     "editorCursor.foreground":"#3dd9ce",
 
-    "scrollbarSlider.background": "#282C34",
-    "scrollbarSlider.activeBackground": "#747D9180",
-    "scrollbarSlider.hoverBackground": "#5A637580",
+    "scrollbarSlider.background": "#ffffff20",
+    "scrollbarSlider.activeBackground": "#ffffff20",
+    "scrollbarSlider.hoverBackground": "#ffffff20",
 
     "tab.activeForeground": "#ffffff",
 		"tab.inactiveForeground": "#ffffff",
