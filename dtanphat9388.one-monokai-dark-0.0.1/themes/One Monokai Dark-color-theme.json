@@ -13,16 +13,32 @@
       }
     },
 
+
+    //
+    // TODO  BBBBBB
+    //
+
+
     {
       "name": "--bbbbbb",
       "scope": [
         "meta.template.expression",
-        /* JSON */
-        "support.type.property-name.json",
-        "support.type.property-name.json.comments",
+        /* JS */
+        "source.js",
+        "source.ts",
+        "meta.array.literal.js",
         /* REGEX */
         "constant.other.character-class.regexp",
         "keyword.control.anchor.regexp",
+        /* JSON */
+        "support.type.property-name.json",
+        /* HTML */
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "entity.other.attribute-name.html",
+        "punctuation.separator.key-value.html",
+        "punctuation.definition.string.end.html",
+        "punctuation.definition.string.begin.html",
       ],
       "settings": {
         "foreground": "#bbbbbb"
@@ -39,6 +55,12 @@
         "foreground": "#bbbbbb"
       }
     },
+
+    
+    //
+    // TODO  2AA198
+    //
+
 
     {
       "name": "--2aa198",
@@ -70,12 +92,20 @@
         "support.type.object.module",
         /* NOTE  MARKDOWN */
         "markup.heading.markdown",
-        "meta.separator.markdown"
+        "meta.separator.markdown",
+        /*  NOTE  HTML */
+        "text.html.basic",
       ],
       "settings": {
         "foreground": "#2aa198"
       }
     },
+
+    
+    //
+    // TODO  E06C75
+    //
+
 
     {
       "name": "--e06c75",
@@ -105,21 +135,47 @@
       }
     },
 
+    
+    //
+    // TODO  EBD996
+    //
+
+
     {
       "name": "--EBD996",
       "scope": [
-        "string",
+        /* JS */
+        "string.quoted.double.js",
+        "string.quoted.single.js",
+        "string.template.js",
         "meta.object-literal.key", // object key
         // CSS
         "meta.selector.css",
         "constant.other.character-class.range.regexp",
         // TS
-        "variable.other.enummember.ts"
+        "string.quoted.double.ts",
+        "string.quoted.single.ts",
+        "string.template.ts",
+        "variable.other.enummember.ts",
+        /* HTML */
+        "meta.attribute",
+        /* JSON */
+        "string.quoted.double.json",
+        /* DOCKER */
+        "string.quoted.double.dockerfile",
+        /* MARKDOWN */
+        "markup.quote.markdown",
       ],
       "settings": {
         "foreground": "#EBD996"
       }
     },
+
+    
+    //
+    // TODO  62BAE4
+    //
+
 
     {
       "name": "--62BAE4",
@@ -141,9 +197,10 @@
         /* Regex */
         "punctuation.definition.character-class.regexp",
         "punctuation.definition.group.regexp",
-        /* markdown */
+        /* HTML */
+        "meta.attribute.event-handler.click.html",
+        /* MARKDOWN */
         "markup.underline.link",
-        "markup.quote.markdown"
       ],
       "settings": {
         "foreground": "#62BAE4"
@@ -151,6 +208,10 @@
     },
 
     
+    //
+    // TODO  D19A66
+    //
+
 
     {
       "name": "--d19a66 italic",
@@ -162,8 +223,13 @@
         "foreground": "#d19a66"
       }
     },
-
     
+    
+    //
+    // TODO  FFFFFF BOLD
+    //
+
+
     {
       "name": "--ffffff bold",
       "scope": [
