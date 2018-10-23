@@ -1,21 +1,6 @@
 
 {
-  //
-  // MARK  BASE_COLOR
-  //
-
   "tokenColors": [
-    {
-      "name": "#bbbbbb",
-      "scope": [
-        "source",
-        "text.html.markdown",
-      ],
-      "settings": {
-        "foreground": "#bbbbbb"
-      }
-    },
-
     {
       "name": "Comment",
       "scope": [
@@ -28,9 +13,35 @@
       }
     },
 
-    // NOTE 
     {
-      "name": "#56b6c2",
+      "name": "--bbbbbb",
+      "scope": [
+        "meta.template.expression",
+        /* JSON */
+        "support.type.property-name.json",
+        "support.type.property-name.json.comments",
+        /* REGEX */
+        "constant.other.character-class.regexp",
+        "keyword.control.anchor.regexp",
+      ],
+      "settings": {
+        "foreground": "#bbbbbb"
+      }
+    },
+
+    {
+      "name": "--bbbbbb italic",
+      "scope": [
+        "storage.type.function.arrow",
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#bbbbbb"
+      }
+    },
+
+    {
+      "name": "--2aa198",
       "scope": [
         // User-defined constant
         "constant.character",
@@ -56,16 +67,18 @@
         // JSON String
         "structure.dictionary.property-name.json",
         // module.exports
-        "support.type.object.module"
+        "support.type.object.module",
+        /* NOTE  MARKDOWN */
+        "markup.heading.markdown",
+        "meta.separator.markdown"
       ],
       "settings": {
         "foreground": "#2aa198"
       }
     },
 
-    // NOTE  KEYWORKS, OPERATORS, NUMBER, ...
     {
-      "name": "#e06c75",
+      "name": "--e06c75",
       "scope": [
         "keyword",
         // Language Variable
@@ -79,36 +92,37 @@
         "support.class.component.js",
         // number
         "constant.numeric",
+        /* JS | TS */
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js",
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts",
+        /* NOTE  MARKDOWN */
+        "markup.fenced_code.block.markdown"
       ],
       "settings": {
         "foreground": "#e06c75"
       }
     },
 
-    
-    //
-    // MARK  DATA TYPE
-    //
-
-
-    // NOTE  STRING
     {
-      "name": "#e5c07b",
+      "name": "--EBD996",
       "scope": [
         "string",
-        "meta.object-literal.key.js", // object key
-        // CSS selector
+        "meta.object-literal.key", // object key
+        // CSS
         "meta.selector.css",
         "constant.other.character-class.range.regexp",
+        // TS
+        "variable.other.enummember.ts"
       ],
       "settings": {
         "foreground": "#EBD996"
       }
     },
 
-    // NOTE  FUNCTION CALL
     {
-      "name": "#62BAE4",
+      "name": "--62BAE4",
       "scope": [
         /* function call (ex: ()) */
         "meta.brace.round",             
@@ -124,93 +138,36 @@
         // class super function
         "variable.language.super",
         "new.expr",
-        // Template expression JS | TS
+        /* Regex */
         "punctuation.definition.character-class.regexp",
         "punctuation.definition.group.regexp",
-        "punctuation.definition.template-expression.begin.js",
-        "punctuation.definition.template-expression.end.js",
-        "punctuation.definition.template-expression.begin.ts",
-        "punctuation.definition.template-expression.end.ts",
+        /* markdown */
+        "markup.underline.link",
+        "markup.quote.markdown"
       ],
       "settings": {
         "foreground": "#62BAE4"
       }
     },
 
-    {
-      "name": "Function arrow sign",
-      "scope": "storage.type.function.arrow",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#bbbbbb"
-      }
-    },
+    
 
     {
-      "name": "Function argument",
-      "scope": "variable.parameter",   
+      "name": "--d19a66 italic",
+      "scope": [
+        "variable.parameter"
+      ],   
      "settings": {
         "fontStyle": "italic",
         "foreground": "#d19a66"
       }
     },
 
-  
-    //
-    // MARK  LANGUAGE
-    //
-
-
-    // NOTE  JS
-    {
-      "name": "#56b6c2",
-      "scope": [
-        "meta.template.expression"
-      ],
-      "settings": {
-        "foreground": "#bbbbbb"
-      }
-    },
-
-    // NOTE  JSON
-    {
-      "name": "#56b6c2",
-      "scope": [
-        "support.type.property-name.json",
-        "support.type.property-name.json.comments",
-      ],
-      "settings": {
-        "foreground": "#bbbbbb"
-      }
-    },
-
-    // NOTE  REGEX
-    {
-      "name": "#56b6c2",
-      "scope": [
-        "constant.other.character-class.regexp",
-        "keyword.control.anchor.regexp",
-      ],
-      "settings": {
-        "foreground": "#bbbbbb"
-      }
-    },
-
-    // NOTE  MARKDOWN
-    {
-      "name": "#56b6c2",
-      "scope": [
-       /* base color */
-        "meta.embedded.block.shellscript"
-      ],
-      "settings": {
-        "foreground": "#bbbbbb"
-      }
-    },
     
     {
-      "name": "#56b6c2",
+      "name": "--ffffff bold",
       "scope": [
+        // MARKDOWN
         "markup.bold.markdown"
       ],
       "settings": {
@@ -220,8 +177,9 @@
     },
     
     {
-      "name": "#56b6c2",
+      "name": "--ffffff italic",
       "scope": [
+        // MARKDOWN
         "markup.italic.markdown"
       ],
       "settings": {
@@ -229,45 +187,11 @@
         "foreground": "#ffffff"
       }
     },
-
-    {
-      "name": "#56b6c2",
-      "scope": [
-       /* link */
-        "markup.underline.link",
-        "markup.quote.markdown"
-      ],
-      "settings": {
-        "foreground": "#62BAE4"
-      }
-    },
-
-    {
-      "name": "#56b6c2",
-      "scope": [
-       /* heading */
-        "markup.heading.markdown",
-        "meta.separator.markdown"
-      ],
-      "settings": {
-        "foreground": "#2aa198"
-      }
-    },
-
-    {
-      "name": "#56b6c2",
-      "scope": [
-       /* block code */
-        "markup.fenced_code.block.markdown"
-      ],
-      "settings": {
-        "foreground": "#e06c75"
-      }
-    },
-
-    
   ],
   
+
+
+
 /* ---------------------------------  MARK  VSCODE COLOR ------------------------------------------------------------------ */
   "colors": {
     "editor.background": "#282c34",

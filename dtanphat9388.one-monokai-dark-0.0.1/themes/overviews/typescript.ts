@@ -1,5 +1,5 @@
 var str:string = "fdsaf";
-let embedStr:string = ` this is ${str}`;
+let embedStr:string = `this is ${str}`;
 
 let num:number = 10;
 let isOn:boolean = false;
@@ -12,5 +12,5 @@ tuple[2] = 5;
 tuple[3] = 'fdsaf'
 tuple[4] = true // error
 
-enum Color {green, red, yellow};
+enum Color{ green, red, yellow };
 let eye = Color.yellow;

@@ -34,9 +34,7 @@ class a {
     }
     static say(name){ console.log(name) }
 
-    getname(){
-        
-    }
+    getname(){}
 }
 
 export default class name extends Error {}
@@ -45,6 +43,7 @@ export default class name extends Error {}
 window.onload = function(){
     let script = document.createElement("script")
     script.src = "https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js"
+    script.setAttribute('src', 'https://localhost:3000')
     let body = document.body.appendChild(script)
 }
 
