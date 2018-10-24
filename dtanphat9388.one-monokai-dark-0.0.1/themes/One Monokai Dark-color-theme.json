@@ -179,9 +179,7 @@
 
     {
       "name": "--62BAE4",
-      "scope": [
-        /* function call (ex: ()) */
-        "meta.brace.round",             
+      "scope": [         
        /*  if, else, ... */
         "keyword.control.conditional",  
         /* for, while, ... */
@@ -282,12 +280,12 @@
     "list.inactiveSelectionBackground": "#11b9ac",
     "list.inactiveSelectionForeground": "#ffffff",
     // move by arrow key
-    "list.focusBackground": "#ffffff",
-    "list.focusForeground": "#000000",
+    "list.focusBackground": "#ffffff50",
+    // "list.focusForeground": "#000000",
     "list.inactiveFocusBackground": "#000000",
     // move by mouse hover
-    "list.hoverBackground": "#ffffff",
-    "list.hoverForeground": "#000000",
+    "list.hoverBackground": "#ffffff50",
+    // "list.hoverForeground": "#000000",
 
     "list.highlightForeground": "#FF5370",
 
