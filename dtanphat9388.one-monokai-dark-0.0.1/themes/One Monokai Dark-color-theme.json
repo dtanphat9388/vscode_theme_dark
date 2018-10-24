@@ -20,7 +20,7 @@
 
 
     {
-      "name": "--C7C7C9",
+      "name": "--c7c7c7",
       "scope": [
         "meta.template.expression",
         /* JS */
@@ -41,7 +41,7 @@
         "punctuation.definition.string.begin.html",
       ],
       "settings": {
-        "foreground": "#C7C7C9"
+        "foreground": "#c7c7c7"
       }
     },
 
@@ -52,7 +52,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#C7C7C9"
+        "foreground": "#c7c7c7"
       }
     },
 
@@ -214,13 +214,12 @@
 
 
     {
-      "name": "--d19a66 italic",
+      "name": "--e8a464 italic",
       "scope": [
         "variable.parameter"
       ],   
      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#d19a66"
+        "foreground": "#e8a464"
       }
     },
     
@@ -261,7 +260,7 @@
 /* ---------------------------------  MARK  VSCODE COLOR ------------------------------------------------------------------ */
   "colors": {
     "editor.background": "#282c34",
-    "editor.foreground": "#bbbbbb",
+    "editor.foreground": "#c7c7c7",
     "editorHint.foreground": "#282c34",
 
     "extensionButton.prominentBackground": "#11b9ac",
@@ -303,9 +302,9 @@
     "dropdown.foreground": "#ffffff",
 
 
-    "notifications.border": "#89DDFF",
+    "notifications.border": "#282c34",
     "notifications.background": "#ffffff",
-    "notifications.foreground": "#000000",
+    "notifications.foreground": "#282c34",
     // "notificationCenter.border": "",
     "notificationCenterHeader.background": "#FF5370",
     "notificationCenterHeader.foreground": "#C3E88D",
@@ -365,7 +364,7 @@
 		"panelTitle.inactiveForeground": "#e7e7e799",
 
     /* popup modal */
-    "widget.shadow": "#11b9ac",
+    "widget.shadow": "#ffffff",
     //  -   search box
     "editorWidget.background": "#282C34",
     //  -  tooltips
@@ -455,8 +454,8 @@
     /* color when git compare */
     // "diffEditor.insertedTextBorder": "#83ff78",
     // "diffEditor.removedTextBorder": "#FF5370",
-    "diffEditor.insertedTextBackground": "#2aa19870",
-    "diffEditor.removedTextBackground": "#9c283c70",
+    "diffEditor.insertedTextBackground": "#2aa19760",
+    "diffEditor.removedTextBackground": "#9c283c60",
     
     
     "gitDecoration.addedResourceForeground": "#11b9ac",
