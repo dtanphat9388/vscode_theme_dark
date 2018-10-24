@@ -8,9 +8,8 @@ let embedStr = `hello ${string}`
 let number = 7;
 const MY_CONSTANT = Symbol(1219147155);
 let bool = true
-func
 let array = ["fdsaf",777, { fdsaf:'fdsafdas' }];
-let [ a, ...b ] = [1,2];let
+let [ a, ...b ] = [1,2];
 
 const object = {
     name: 'tanphat',
@@ -38,6 +37,7 @@ class a {
 }
 
 export default class name extends Error {}
+const i = new name();
 
 /* html script */
 window.onload = function(){

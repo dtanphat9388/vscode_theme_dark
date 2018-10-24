@@ -20,7 +20,7 @@
 
 
     {
-      "name": "--bbbbbb",
+      "name": "--C7C7C9",
       "scope": [
         "meta.template.expression",
         /* JS */
@@ -41,7 +41,7 @@
         "punctuation.definition.string.begin.html",
       ],
       "settings": {
-        "foreground": "#bbbbbb"
+        "foreground": "#C7C7C9"
       }
     },
 
@@ -52,7 +52,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#bbbbbb"
+        "foreground": "#C7C7C9"
       }
     },
 
@@ -63,7 +63,7 @@
 
 
     {
-      "name": "--2aa198",
+      "name": "--11b9ac",
       "scope": [
         // User-defined constant
         "constant.character",
@@ -97,7 +97,7 @@
         "text.html.basic",
       ],
       "settings": {
-        "foreground": "#11b9ac" //#02d0c0 //2aa198
+        "foreground": "#11b9ac"
       }
     },
 
@@ -203,7 +203,7 @@
         "markup.underline.link",
       ],
       "settings": {
-        "foreground": "#5ab8e4" //5ab8e4 //62BAE4
+        "foreground": "#5ab8e4"
       }
     },
 
@@ -357,11 +357,11 @@
     "inputValidation.warningBorder": "#d19a66",
     
     /* terminal tab */
-    "panel.background": "#002b36",
-		"panel.border": "#002b36",
+    "panel.background": "#13282F",
+		"panel.border": "#13282F",
 		"panel.dropBackground": "#11b9ac",
-		"panelTitle.activeBorder": "#ffffff",
-		"panelTitle.activeForeground": "#ffffff",
+		"panelTitle.activeBorder": "#11B9AC",
+		"panelTitle.activeForeground": "#11B9AC",
 		"panelTitle.inactiveForeground": "#e7e7e799",
 
     /* popup modal */
