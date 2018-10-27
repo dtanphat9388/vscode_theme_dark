@@ -134,6 +134,8 @@
         "punctuation.definition.template-expression.end.ts",
         /* NOTE  MARKDOWN */
         "markup.fenced_code.block.markdown",
+        /* TS */
+        "punctuation.separator.key-value",
       ],
       "settings": {
         "foreground": "#e06c75"
@@ -185,8 +187,9 @@
     {
       "name": "--62BAE4",
       "scope": [         
-       /*  if, else, ... */
+       /*  if, else, for, while ... */
         "keyword.control.conditional",  
+        "keyword.control.loop",  
         /* for, while, ... */
         "keyword.control.flow",         
         /* function call */
