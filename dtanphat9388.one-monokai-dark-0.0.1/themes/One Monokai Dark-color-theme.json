@@ -424,7 +424,7 @@
     "editor.lineHighlightBackground": "#2aa19820",
     "editor.selectionBackground": "#3E4451",
 
-    "editorBracketMatch.background": "#11b9ac",
+    "editorBracketMatch.background": "#11b9ac20",
     "editorBracketMatch.border": "#11b9ac",
 
     "editorLineNumber.foreground":"#11b9ac",
@@ -443,9 +443,9 @@
 		"editorGroupHeader.noTabsBackground": "#11202F",
     "editorGroupHeader.tabsBackground": "#11202F",
     
-    // "debugExceptionWidget.background": "#420b0d",
+    "debugExceptionWidget.background": "#420b0d",
 		"debugExceptionWidget.border": "#11b9ac",
-		// "debugToolBar.background": "#333333",
+		"debugToolBar.background": "#333333",
 
 
     //
@@ -479,8 +479,8 @@
     /* color when git compare */
     // "diffEditor.insertedTextBorder": "#83ff78",
     // "diffEditor.removedTextBorder": "#FF5370",
-    "diffEditor.insertedTextBackground": "#2aa19760",
-    "diffEditor.removedTextBackground": "#9c283c60",
+    "diffEditor.insertedTextBackground": "#2aa19730",
+    "diffEditor.removedTextBackground": "#9c283c30",
     
     
     "gitDecoration.addedResourceForeground": "#11b9ac",
