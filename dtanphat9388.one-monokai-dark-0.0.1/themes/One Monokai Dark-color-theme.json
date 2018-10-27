@@ -35,10 +35,15 @@
         /* HTML */
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
+        "support.type.property-name.css",
         "entity.other.attribute-name.html",
         "punctuation.separator.key-value.html",
-        "punctuation.definition.string.end.html",
         "punctuation.definition.string.begin.html",
+        "punctuation.definition.string.end.html",
+        "punctuation.section.property-list.begin.bracket.curly.css",
+        "punctuation.section.property-list.end.bracket.curly.css",
+        "punctuation.separator.key-value.css",
+        "punctuation.terminator.rule.css"
       ],
       "settings": {
         "foreground": "#c7c7c7"
@@ -116,7 +121,7 @@
         // Built-in constant
         "constant.language",
         // Tag name
-        "entity.name.tag",
+        "entity.name.tag.html",
         "entity.name.tag.class.js",
         "entity.name.tag.class.jsx",
         "support.class.component.js",
@@ -128,7 +133,7 @@
         "punctuation.definition.template-expression.begin.ts",
         "punctuation.definition.template-expression.end.ts",
         /* NOTE  MARKDOWN */
-        "markup.fenced_code.block.markdown"
+        "markup.fenced_code.block.markdown",
       ],
       "settings": {
         "foreground": "#e06c75"
@@ -199,6 +204,9 @@
         "meta.attribute.event-handler.click.html",
         /* MARKDOWN */
         "markup.underline.link",
+        /* TS */
+        "meta.type.annotation",
+        "meta.return.type",
       ],
       "settings": {
         "foreground": "#5ab8e4"
@@ -220,6 +228,22 @@
         "foreground": "#e8a464"
       }
     },
+
+    
+    //
+    // TODO  D19A66
+    //
+
+
+    // {
+    //   "name": "--9966b8",
+    //   "scope": [
+    //     "meta.type.annotation.ts"
+    //   ],   
+    //  "settings": {
+    //     "foreground": "#9966b8"
+    //   }
+    // },
     
     
     //

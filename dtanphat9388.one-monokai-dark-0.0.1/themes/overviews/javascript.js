@@ -39,6 +39,17 @@ class a {
 export default class name extends Error {}
 const i = new name();
 
+let count = 0;
+while(true) {
+    count++;
+    console.log(count)
+    if (count === 100) break;
+}
+
+for(let i = 0; i < 100; 1++) {
+    
+}
+
 /* html script */
 window.onload = function(){
     let script = document.createElement("script")

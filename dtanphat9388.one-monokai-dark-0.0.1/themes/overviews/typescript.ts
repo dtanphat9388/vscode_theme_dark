@@ -12,5 +12,26 @@ tuple[2] = 5;
 tuple[3] = 'fdsaf'
 tuple[4] = true // error
 
+const obj = {
+  name: 'tanphat',
+  age: 45,
+}
+
 enum Color{ green, red, yellow };
 let eye = Color.yellow;
+
+interface User {
+  name:string
+  age:number
+  [k:string]: any
+}
+function getName(user:User):number{
+  console.log(`name ${user.name} is ${user.age} years old.`);
+  return user.age;
+}
+
+//9966b8
+
+
+
+
