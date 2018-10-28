@@ -1,4 +1,4 @@
-import a from '';
+import _ from 'lodash';
 import unused from '';
 
 const a = require('./fdsafdsa');
@@ -20,6 +20,9 @@ const object = {
     string
 };
 let { name, age } = object;
+punctuation.definition.character-class.regexp
+punctuation.definition.group.regexp
+embedStr.search(/^\w+\d{3:5}\b?\s.\S\W\D\\[a-zA-Z0-9]*(?:hel\slo)*$/g)
 
 window.document.getElementById('fdsaf')
 const arrowFunc = (name) => { console.log(name) };
