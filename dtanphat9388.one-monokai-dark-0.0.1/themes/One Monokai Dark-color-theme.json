@@ -46,24 +46,12 @@
     },
 
     {
-      "name": "--bbbbbb italic",
+      "name": "--c7c7c7 italic",
       "scope": [
         "storage.type.function.arrow",
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#c7c7c7"
-      }
-    },
-
-    {
-      "name": "--bbbbbb bold",
-      "scope": [
-        /* REGEX */
-        "constant.other.character-class.regexp",
-      ],
-      "settings": {
-        "fontStyle": "bold",
         "foreground": "#c7c7c7"
       }
     },
@@ -107,6 +95,18 @@
         "meta.separator.markdown",
       ],
       "settings": {
+        "foreground": "#11b9ac"
+      }
+    },
+
+    {
+      "name": "--11b9ac bold",
+      "scope": [
+        /* REGEX */
+        "constant.other.character-class.regexp",
+      ],
+      "settings": {
+        "fontStyle": "bold",
         "foreground": "#11b9ac"
       }
     },
