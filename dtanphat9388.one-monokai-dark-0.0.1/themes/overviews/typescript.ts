@@ -25,6 +25,7 @@ interface User {
   age:number
   [k:string]: any
 }
+
 function getName(user:User):number{
   console.log(`name ${user.name} is ${user.age} years old.`);
   return user.age;

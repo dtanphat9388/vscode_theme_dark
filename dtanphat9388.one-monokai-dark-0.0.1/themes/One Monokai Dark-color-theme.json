@@ -23,9 +23,7 @@
       "name": "--c7c7c7",
       "scope": [
         "meta.template.expression",
-        /* JS */
-        "source.js",
-        "source.ts",
+        /* jS */
         "meta.array.literal.js",
         /* REGEX */
         "constant.other.character-class.regexp",
@@ -98,8 +96,6 @@
         /* NOTE  MARKDOWN */
         "markup.heading.markdown",
         "meta.separator.markdown",
-        /*  NOTE  HTML */
-        "text.html.basic",
       ],
       "settings": {
         "foreground": "#11b9ac"
@@ -292,7 +288,7 @@
 		"extensionButton.prominentForeground": "#ffffff",
 		"extensionButton.prominentHoverBackground": "#11b9ac",
 
-    "activityBar.background": "#11202F",
+    "activityBar.background": "#192A3C",
     "activityBar.foreground": "#929497",
     "activityBarBadge.background": "#11b9ac",
     "activityBarBadge.foreground": "#ffffff",
@@ -301,17 +297,18 @@
 		"button.hoverBackground": "#11b9ac",
     "button.foreground": "#ffffff",
 
-    "list.activeSelectionBackground": "#11b9ac",
+    "list.activeSelectionBackground": "#11b9ac50",
     "list.activeSelectionForeground": "#ffffff",
 
-    "list.inactiveSelectionBackground": "#11b9ac",
+    "list.inactiveSelectionBackground": "#11b9ac50",
     "list.inactiveSelectionForeground": "#ffffff",
     // move by arrow key
-    "list.focusBackground": "#ffffff50",
-    // "list.focusForeground": "#000000",
+    "list.focusBackground": "#ffffff10",
+    // popup command
+    "list.focusForeground": "#ffffff",
     "list.inactiveFocusBackground": "#000000",
     // move by mouse hover
-    "list.hoverBackground": "#ffffff50",
+    "list.hoverBackground": "#ffffff10",
     // "list.hoverForeground": "#000000",
 
     "list.highlightForeground": "#FF5370",
@@ -323,7 +320,7 @@
     "list.warningForeground": "#ffffff",
 
     // "dropdown.border": "#11b9ac",
-    "dropdown.background": "#000000",
+    "dropdown.background": "#182A3D",
     "dropdown.foreground": "#ffffff",
 
 
@@ -336,8 +333,8 @@
     // "notificationToast.border": "#89DDFF",
     "notificationLink.foreground": "#11b9ac",
 
-    "sideBar.background": "#11202F",
-    "sideBarSectionHeader.background": "#11202F",
+    "sideBar.background": "#192A3C",
+    "sideBarSectionHeader.background": "#192A3C",
     "sideBar.dropBackground": "#ffffff",
 
     "editorRuler.foreground": "#484848",
@@ -350,12 +347,12 @@
     "tab.activeForeground": "#ffffff",
 		"tab.inactiveForeground": "#ffffff",
     "tab.activeBackground": "#11b9ac",
-    "tab.inactiveBackground": "#11202F",
+    "tab.inactiveBackground": "#192A3C",
     "tab.border": "#ffffff00",
 		"tab.unfocusedActiveForeground": "#ffffff",
     "tab.unfocusedInactiveForeground": "#ffffff",
 
-    "statusBar.background": "#11202F",
+    "statusBar.background": "#192A3C",
     "statusBar.foreground": "#ffffff",
     "statusBarItem.hoverBackground": "#11b9ac",
     "statusBar.noFolderBackground": "#11202F",
@@ -389,16 +386,16 @@
 		"panelTitle.inactiveForeground": "#e7e7e799",
 
     /* popup modal */
-    "widget.shadow": "#ffffff",
+    "widget.shadow": "#ffffff00",
     //  -   search box
-    "editorWidget.background": "#11202F",
+    "editorWidget.background": "#192A3C",
     //  -  tooltips
-    "editorHoverWidget.background": "#11202F",
-    "editorHoverWidget.border": "#11202F",
+    "editorHoverWidget.background": "#192A3C",
+    "editorHoverWidget.border": "#192A3C",
     //  -  syntax suggesst
-    "editorSuggestWidget.background": "#11202F",
+    "editorSuggestWidget.background": "#192A3C",
     "editorSuggestWidget.border": "#11202F",
-    "editorSuggestWidget.selectedBackground": "#ffffff",
+    "editorSuggestWidget.selectedBackground": "#ffffff50",
 
     // "settings.checkboxBackground": "#1d1f23",
 		// "settings.checkboxBorder": "#181a1f",
@@ -438,10 +435,10 @@
     "editor.findMatchBorder": "#11b9ac",
 
     "editorGroup.dropBackground": "#11202F",
-    "editorGroup.border": "#11202F",
+    "editorGroup.border": "#192A3C",
     "editorGroup.emptyBackground": "#11202F",
-		"editorGroupHeader.noTabsBackground": "#11202F",
-    "editorGroupHeader.tabsBackground": "#11202F",
+		"editorGroupHeader.noTabsBackground": "#192A3C",
+    "editorGroupHeader.tabsBackground": "#192A3C",
     
     "debugExceptionWidget.background": "#420b0d",
 		"debugExceptionWidget.border": "#11b9ac",

@@ -27,6 +27,7 @@ function myFunction(used, unused) { console.log(used) }
 myFunction();
 arrowFunc();
 
+
 class a {
     constructor(name){
         this.name = name;
