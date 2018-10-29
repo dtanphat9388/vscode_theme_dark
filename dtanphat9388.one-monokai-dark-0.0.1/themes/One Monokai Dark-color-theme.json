@@ -31,10 +31,6 @@
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "support.type.property-name.css",
-        "entity.other.attribute-name.html",
-        "punctuation.separator.key-value.html",
-        "punctuation.definition.string.begin.html",
-        "punctuation.definition.string.end.html",
         "punctuation.section.property-list.begin.bracket.curly.css",
         "punctuation.section.property-list.end.bracket.curly.css",
         "punctuation.separator.key-value.css",
@@ -76,16 +72,21 @@
         "entity.name.tag.id",
         // Library constant
         "support.constant",
-        // StyleSheet Variable
+        // CSS Variable
         "variable.css",
         "variable.scss",
         "variable.less",
         "variable.sass",
-        // StyleSheet Function
+        // CSS Function
         "function.css",
         "function.scss",
         "function.less",
         "function.sass",
+        /* HTML */
+        "entity.other.attribute-name.html",
+        "punctuation.separator.key-value.html",
+        "punctuation.definition.string.begin.html",
+        "punctuation.definition.string.end.html",
         // JSON String
         "structure.dictionary.property-name.json",
         // module.exports
