@@ -127,7 +127,7 @@
         // Built-in constant
         "constant.language",
         // Tag name
-        "entity.name.tag.html",
+        "entity.name.tag",
         "entity.name.tag.class.js",
         "entity.name.tag.class.jsx",
         "support.class.component.js",
@@ -264,7 +264,9 @@
       "name": "--ffffff bold",
       "scope": [
         // MARKDOWN
-        "markup.bold.markdown"
+        "markup.bold.markdown",
+        // DOCS
+        "storage.type.class.jsdoc"
       ],
       "settings": {
         "fontStyle": "bold",
