@@ -61,12 +61,14 @@
     {
       "name": "--11b9ac",
       "scope": [
+        // number
+        "constant.numeric",
+        "constant.language.boolean",
         // User-defined constant
         "constant.character",
         "constant.other",
         // Storage
         "storage",
-        "keyword.control",
         // Tag Class and ID
         "entity.name.tag.class",
         "entity.name.tag.id",
@@ -83,6 +85,9 @@
         "function.less",
         "function.sass",
         /* HTML */
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.ts",
         "entity.other.attribute-name.html",
         "punctuation.separator.key-value.html",
         "punctuation.definition.string.begin.html",
@@ -131,8 +136,6 @@
         "entity.name.tag.class.js",
         "entity.name.tag.class.jsx",
         "support.class.component.js",
-        // number
-        "constant.numeric",
         /* JS | TS */
         "punctuation.definition.template-expression.begin.js",
         "punctuation.definition.template-expression.end.js",
@@ -165,6 +168,7 @@
         "string.template.js",
         "meta.object-literal.key", // object key
         // CSS
+        "entity.name.tag.css",
         "meta.selector.css",
         "constant.other.character-class.range.regexp",
         // TS

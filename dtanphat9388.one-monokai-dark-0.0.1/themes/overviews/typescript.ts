@@ -1,5 +1,5 @@
 var str:string = "fdsaf";
-let embedStr:string = `this is ${str}`;
+let embedStr:string = `this is ${str + 5}`;
 
 let num:number = 10;
 let isOn:boolean = false;

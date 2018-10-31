@@ -10,6 +10,7 @@ const MY_CONSTANT = Symbol(1219147155);
 let bool = true
 let array = ["fdsaf",777, { fdsaf:'fdsafdas' }];
 let [ a, ...b ] = [1,2];
+let sum = true + 1 + 100 || false
 
 const object = {
     name: 'tanphat',
@@ -25,7 +26,7 @@ embedStr.search(/^\w+\d{3:5}\b?\s.\S\W\D\\[a-zA-Z0-9]*(?:hel\slo)*$/g)
 
 window.document.getElementById('fdsaf')
 const arrowFunc = (name) => { console.log(name) };
-function myFunction(used, unused) { console.log(used) }
+function myFunction(used, unused) { return console.log(used) }
 myFunction();
 arrowFunc();
 
@@ -49,7 +50,7 @@ while(true) {
     if (count === 100) break;
 }
 
-for(let i = 0; i < 100; 1++) {
+for(let i = 0; i < 100; i++) {
     
 }
 
