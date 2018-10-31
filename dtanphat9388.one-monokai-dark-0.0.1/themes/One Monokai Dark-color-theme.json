@@ -143,6 +143,8 @@
         "punctuation.definition.template-expression.end.ts",
         /* NOTE  MARKDOWN */
         "markup.fenced_code.block.markdown",
+        "markup.inline.raw.string.markdown",
+        "punctuation.definition.list.begin.markdown",
         /* TS */
         "punctuation.separator.key-value",
         /* REGEX */
@@ -188,6 +190,7 @@
         "string.quoted.double.dockerfile",
         /* MARKDOWN */
         "markup.quote.markdown",
+        
       ],
       "settings": {
         "foreground": "#EBD996"
