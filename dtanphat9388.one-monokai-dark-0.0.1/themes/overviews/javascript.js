@@ -31,7 +31,7 @@ myFunction();
 arrowFunc();
 
 
-class a {
+class a extends Console {
     constructor(name){
         this.name = name;
     }
@@ -51,7 +51,7 @@ while(true) {
 }
 
 for(let i = 0; i < 100; i++) {
-    
+    if (i === 50) continue;
 }
 
 /* html script */

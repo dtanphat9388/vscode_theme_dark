@@ -25,6 +25,9 @@
         "meta.template.expression",
         /* jS */
         "meta.array.literal.js",
+        "meta.brace.round.js",
+        "meta.objectliteral",
+        "variable.other.readwrite",
         /* JSON */
         "support.type.property-name.json",
         /* HTML */
@@ -209,8 +212,6 @@
        /*  if, else, for, while ... */
         "keyword.control.conditional",  
         "keyword.control.loop",  
-        /* for, while, ... */
-        "keyword.control.flow",         
         /* function call */
         "meta.function-call",     
         /* Variable */
